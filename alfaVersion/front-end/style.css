@@ -11,6 +11,11 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 2px rgb(0, 0, 0, .2);
 }
+h2 {
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, .2);
+}
 
 h3 {
     font-family: 'Times New Roman', Times, serif;
@@ -28,6 +33,15 @@ p {
 body {
     background-color:honeydew;
 }
+
+.btn-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
 
 .card {
     background-color: rgba(255, 255, 255, 10);
