@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
   <header>
     <div class="header-image" style=" background-image: url( /alfaVersion/front-end/img/agrumeto-social-min.jpg);">
       <div class="color-overlay d-flex justify-content-center align-items-center">
-        <h2> Arangilena | Home Aziendale</h2>
+        <h2> Arangilena | Home aziendale</h2>
       </div>
       <div class="color-overlay d-flex justify-content-center align-items-md-end">
         <h3>Lavoriamo per la qualità</h3>
@@ -108,7 +108,7 @@
                 </ul>
               </p><br>
               <div class="d-grid">
-                <button type="button" class="btn btn-outline-success">Visualizza Ordini</button>
+                <a th:href="@{/GestioneOrdini.html}" class="btn btn-outline-success">Visualizza Ordini</a>
               </div>
             </div>
         </div>
