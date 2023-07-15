@@ -19,6 +19,7 @@ h2 {
 
 h3 {
     font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 p {
     font-family: 'Times New Roman', Times, serif;
@@ -37,12 +38,13 @@ body {
 .card {
     background-color: rgba(255, 255, 255, 10);
 }
-.card-body {
-    background-color: honeydew;
-}
 
 footer {
     background-color: lightgray;
+}
+
+.custom-btn {
+  width: 200px; /* Specifica la larghezza desiderata per il tasto */
 }
 
 @media (max-width: 768px) {
@@ -52,10 +54,19 @@ footer {
     h1 {
         font-size: calc(1.525rem + 3.3vw);
     }
+    h2 {
+        font-size: calc(1.425rem + 2.5vw);
+    }
     h3 {
         font-size: calc(0.75rem + 1.5vw);
     }
     .card {
         min-height: 15vh;
+    }
+    .dropstart{
+        min-height: 2vh;
+    }
+    p{
+        font-size: smaller;
     }
 }
