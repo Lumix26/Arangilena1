@@ -30,31 +30,22 @@
     </header>
 
     <formA>
-        <div class="card text-white bg-dark mb-3 mx-auto" style="width: 85rem;">
+        <div class="card text-white bg-dark mb-3 mx-auto" style="width: 40rem;">
             <h4 class="card-title">Compila con le informazioni richieste</h4>
-            <div class="card-body">
+            <div class="card-body" style="justify-content: center;">
                 <form action="#" method="post"><br>
-                    <div class="form-group row">
-                        <label for="Tipologia" class="col-md-1 col-form-label">Tipologia</label>
-                        <div class="col-md-3">
-                            <select class="form-select">
-                                <option selected>Seleziona tipo prodotto</option>
-                                <option value="BEVANDA">BEVANDA</option>
-                                <option value="INGROSSO">INGROSSO</option>
-                            </select>
-                        </div>
-                        <label for="Quantità" class="col-md-1 col-form-label">Quantità</label>
-                        <div class="col-md-1">
-                            <input type="number" class="form-control" placeholder="q.tà">
+                    <div class="form-group col">
+                        <label for="Username" class="col-md-2 col-form-label">Username</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                        <label for="Password" class="col-md-2 col-form-label">Password</label>
+                        <div class="col-md-4">
+                            <input type="password" class="form-control" placeholder="Password">
                         </div>
                     </div><br>
-                    <div class="input-group">
-                        <span class="input-group-text">Descrizione</span>
-                        <textarea class="form-control" rows="3"></textarea>
-                    </div><br>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid">
                         <button class="btn btn-primary" type="submit">Invia</button>
-
                     </div>
                 </form>
             </div>

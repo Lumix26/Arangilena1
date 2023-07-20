@@ -32,7 +32,7 @@ p {
     background-color: rgba(0, 0, 0, 0.2);
 }
 body {
-    background-color:honeydew;
+    background-color:#f0fff0;
 }
 
 .card {
@@ -46,6 +46,10 @@ footer {
 .custom-btn {
   width: 200px; /* Specifica la larghezza desiderata per il tasto */
 }
+
+.table tbody tr {
+    height: 50px; /* Imposta l'altezza desiderata per le righe */
+  }
 
 @media (max-width: 768px) {
     .header-image {
